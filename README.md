@@ -21,7 +21,7 @@ The exercise requires [Node.js](https://nodejs.org/en/) to be installed. We reco
 
 1. Create a forked copy of this project.
 
-1. Add `tonomb` as collaborator on Github.
+1. Add `tonomb` as a [collaborator on Github](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository).
 
 1. Clone your OWN version of Repo (Not SOMOS's by mistake!).
 
@@ -30,8 +30,6 @@ The exercise requires [Node.js](https://nodejs.org/en/) to be installed. We reco
 1. Implement the project on this Branch, committing changes regularly.
 
 1. Push commits: git push origin `<develop>`.
-
-
 
 1. In the repo root directory, run `npm install` to gather all dependencies.
 
@@ -77,10 +75,10 @@ Given the time expectations of this exercise, we don't expect anyone to submit a
 
 ## Submitting the Assignment
 
-[ ] When you have finished the assignment, Submit a Pull-Request to merge `<develop>` Branch into master (Your  Repo).
+- [ ] When you have finished the assignment, Submit a Pull-Request to merge `<develop>` Branch into master (Your  Repo).
 
-[ ] Add `tonomb` as a Reviewer on the Pull-request 
+- [ ] Add `tonomb` as a Reviewer on the Pull-request 
 
-[ ] We will count the project as recived by  merging the branch back into master. Let us know you are done via e-mail. We'll review your code within 1-2 days.
+- [ ] We will count the project as recived by  merging the branch back into master. Let us know you are done via e-mail. We'll review your code within 1-2 days.
 
 Thank you and good luck! 🙏
