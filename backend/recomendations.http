@@ -1,0 +1,39 @@
+@api = http://localhost:4000
+
+### Create
+POST {{api}}/recomendation HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Texto de titulo",
+    "instructions": "Texto de instrucciones",
+    "why": "Texto de porque",
+    "tags": "Texto de tags",
+    "counterindication":"Texto de contraindicaciones",
+    "studies":"Texto de estudios",
+    "studyLink":"Link studio"
+}
+
+### all
+GET {{api}}/recomendations HTTP/1.1
+Content-Type: application/json
+
+### one
+GET {{api}}/recomendation/6255e8924dd797128078d8c4 HTTP/1.1
+
+### update
+PUT {{api}}/recomendation/6255e8924dd797128078d8c4 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Texto de titulo 2",
+    "instructions": "Texto de instrucciones 2",
+    "why": "Texto de porque 2",
+    "tags": "Texto de tags 2",
+    "counterindication":"Texto de contraindicaciones 2",
+    "studies":"Texto de estudios 2",
+    "studyLink":"Link studio 2"
+}
+
+### delete
+DELETE {{api}}/recomendation/6255f384609f23a1fc773712 HTTP/1.1

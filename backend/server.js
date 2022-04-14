@@ -1,16 +1,9 @@
-const express = require('express');
+const app = require("./app");
+const http = require("http");
 
-const app = express();
+const server = http.createServer(app);
+require("./database");
 
-const port = 4000;
-
-//Build API Routes
-app.get('/', (req, res) => {    
-    res.send('Hello World');
-})
-
-
-
-app.listen(port, () => {
-    console.log(`Express App Listening on Port ${port}`);
-})
+server.listen(app.get("port"), () => {
+  console.log(`Express App Listening on Port ${app.get("port")}`);
+});
