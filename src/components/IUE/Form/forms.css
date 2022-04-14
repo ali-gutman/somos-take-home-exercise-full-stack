@@ -1,0 +1,30 @@
+.cont-input {
+  width: 100%;
+  height: auto;
+  margin: 1% 0;
+}
+.cont-label {
+  text-align: left;
+  padding: 0 0 1% 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+input:focus,
+textarea:focus {
+  outline: none !important;
+  border: 1px solid #9ec1b7;
+  box-shadow: 0 0 10px #9ec1b7;
+}
+label {
+  font-weight: bold;
+  color: #333;
+}
+textarea,
+input {
+  width: 98%;
+  border-radius: 8px;
+  padding: 1%;
+  border: solid #999 1px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}

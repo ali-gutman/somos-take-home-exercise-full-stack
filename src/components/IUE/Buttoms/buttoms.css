@@ -1,0 +1,81 @@
+
+.btn{
+    border: none;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    margin: 36px;
+    transition: all 0.25s ease;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+  
+  .action-btn {
+    color: #fff;
+    background: #546e7a;
+  }
+
+  .secondary-btn{
+    color: #1a1b1d !important;
+    background: #cfd8dc !important;
+  }
+  
+  .hover-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: translateY(-5px);
+    background:#33691e;
+    color: #fff;
+  }
+
+  .icon-btn {
+    cursor: pointer;
+    font-weight: bolder;
+    height: 34px;
+    width: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17px;
+    border: none;
+    font-size: 20px;
+    color: #000;
+    background: #eceff1;
+    transition: all 0.25s ease;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    position: absolute;
+    align-self: flex-end;
+    margin-top: -7px;
+    margin-right: -7px;
+  }
+
+  .floating-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 45px;
+    bottom: 45px;
+    right: 45px;
+    position: fixed;
+    border: none;
+    transition: .3s;
+}
+
+  .right-btn{
+    right: 0;
+    top: 0;
+  }
+
+  .left-btn{
+    left: 0;
+    top: 0;
+  }
